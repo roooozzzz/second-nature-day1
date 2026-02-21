@@ -15,7 +15,7 @@
 
 body {
   margin: 0;
-  background: #efefef;
+  background: var(--bg);
   color: var(--text);
   font-family: "Noto Serif SC", "Source Han Serif SC", serif;
   -webkit-font-smoothing: antialiased;
