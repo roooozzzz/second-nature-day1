@@ -71,6 +71,10 @@ body {
   line-height: 1.4;
 }
 
+.index-nav .nav-main a {
+  letter-spacing: 0.08em;
+}
+
 .index-nav a:hover {
   color: #6f7376;
   border-bottom-color: #474c50;
