@@ -132,6 +132,7 @@ main {
   margin: 0;
   font-size: 18px;
   line-height: 1.85;
+  color: #858d92;
 }
 
 .manifesto-block .spacer {
@@ -235,13 +236,14 @@ main {
 
 .directory-nav a {
   font-size: 15px;
-  color: var(--text);
+  color: #858d92;
   text-decoration: none;
 }
 
 .paths-section p {
   margin: 8px 0 0;
   font-size: 15px;
+  color: #858d92;
 }
 
 .tag-cloud {
