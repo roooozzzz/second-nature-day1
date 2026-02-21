@@ -74,6 +74,29 @@ body {
 
 .index-nav .nav-main a {
   letter-spacing: 0.08em;
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.index-nav .nav-main .nav-en {
+  font-family: "EB Garamond", serif;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  opacity: 0;
+  max-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: 0;
+  transform: translateX(-6px);
+  transition: opacity 0.18s ease, max-width 0.2s ease, margin-left 0.2s ease, transform 0.2s ease;
+}
+
+.index-nav .nav-main a:hover .nav-en,
+.index-nav .nav-main a:focus-visible .nav-en {
+  opacity: 1;
+  max-width: 240px;
+  margin-left: 6px;
+  transform: translateX(0);
 }
 
 .index-nav a:hover {
