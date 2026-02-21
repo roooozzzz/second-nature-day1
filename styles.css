@@ -289,7 +289,7 @@ main {
 .column-intro h2,
 .column-list h2 {
   margin: 0 0 14px;
-  font-size: 22px;
+  font-size: 20px;
   font-family: "EB Garamond", serif;
   font-weight: 500;
   color: #858d92;
@@ -298,7 +298,7 @@ main {
 
 .column-intro p {
   margin: 0;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.85;
 }
 
@@ -333,7 +333,7 @@ main {
 
 .column-entry h3 {
   margin: 0;
-  font-size: 30px;
+  font-size: 22px;
   line-height: 1.28;
   font-family: "EB Garamond", serif;
   font-weight: 500;
@@ -402,7 +402,7 @@ main {
   }
 
   .column-entry h3 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .directory-nav {
