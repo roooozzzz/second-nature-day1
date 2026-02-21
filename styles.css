@@ -149,7 +149,7 @@ main {
 
 .entry {
   padding-top: 16px;
-  border-top: 1px solid #dce2e0;
+  border-top: none;
 }
 
 .entry:first-of-type {
