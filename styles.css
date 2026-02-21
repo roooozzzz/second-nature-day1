@@ -194,6 +194,11 @@ main {
   line-height: 1.72;
 }
 
+.entry.secondary {
+  border-top: none;
+  margin-top: 16px;
+}
+
 .entry.secondary h3 {
   font-size: 22px;
   font-family: "EB Garamond", serif;
