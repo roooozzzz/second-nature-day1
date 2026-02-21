@@ -115,29 +115,10 @@ main {
   display: block;
 }
 
-.hero-panels {
-  display: grid;
-  grid-template-columns: 1.6fr 0.75fr;
-  gap: 20px;
+.opening-module {
+  padding: 6px 2px 10px;
 }
 
-.hero-block {
-  padding: 28px 26px;
-  min-height: 360px;
-}
-
-.manifesto-block {
-  background: var(--panel-strong);
-}
-
-.note-block {
-  background: var(--panel);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.hero-block h2,
 .latest-articles h2,
 .directory-section h2,
 .paths-section h2,
@@ -150,20 +131,21 @@ main {
   letter-spacing: 0.06em;
 }
 
-.manifesto-block p,
-.note-block p {
+.opening-module p {
   margin: 0;
   font-size: 18px;
   line-height: 1.85;
-  color: #858d92;
+  color: var(--text);
 }
 
-.manifesto-block .spacer {
+.opening-module .opening-spacer {
   height: 18px;
 }
 
-.note-block p + p {
-  margin-top: 10px;
+.opening-module .opening-note {
+  margin-top: 16px;
+  font-size: 13px;
+  color: #858585;
 }
 
 .latest-articles {
@@ -379,12 +361,12 @@ main {
     gap: 10px;
   }
 
-  .hero-panels {
-    grid-template-columns: 1fr;
+  .opening-module p {
+    font-size: 16px;
   }
 
-  .hero-block {
-    min-height: auto;
+  .opening-module .opening-note {
+    font-size: 12px;
   }
 
   .entry.feature h3 {
