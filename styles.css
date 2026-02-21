@@ -138,12 +138,17 @@ main {
   color: var(--text);
 }
 
+.opening-module .opening-lead {
+  font-size: 20px;
+}
+
 .opening-module .opening-spacer {
   height: 18px;
 }
 
 .opening-module .opening-note {
-  margin-top: 16px;
+  margin-top: 30px;
+  margin-left: 8px;
   font-size: 13px;
   color: #858585;
 }
@@ -365,8 +370,14 @@ main {
     font-size: 16px;
   }
 
+  .opening-module .opening-lead {
+    font-size: 18px;
+  }
+
   .opening-module .opening-note {
     font-size: 12px;
+    margin-top: 28px;
+    margin-left: 8px;
   }
 
   .entry.feature h3 {
