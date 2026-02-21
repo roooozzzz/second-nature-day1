@@ -33,7 +33,7 @@ body {
 
 .masthead h1 {
   margin: 0;
-  font-size: 54px;
+  font-size: 38px;
   line-height: 1.1;
   font-weight: 500;
   letter-spacing: 0.03em;
@@ -181,7 +181,7 @@ main {
 }
 
 .entry.feature h3 {
-  font-size: 48px;
+  font-size: 28px;
   font-family: "EB Garamond", serif;
 }
 
@@ -191,7 +191,7 @@ main {
 }
 
 .entry.secondary h3 {
-  font-size: 42px;
+  font-size: 22px;
   font-family: "EB Garamond", serif;
 }
 
@@ -201,7 +201,7 @@ main {
 }
 
 .entry.small h3 {
-  font-size: 28px;
+  font-size: 22px;
   font-family: "EB Garamond", serif;
 }
 
@@ -241,7 +241,7 @@ main {
 }
 
 .tag-cloud span {
-  font-size: 18px;
+  font-size: 13px;
   color: var(--accent);
   font-family: "EB Garamond", serif;
   font-style: italic;
@@ -331,7 +331,7 @@ main {
   }
 
   .masthead h1 {
-    font-size: 40px;
+    font-size: 32px;
   }
 
   .brand-en {
@@ -353,15 +353,15 @@ main {
   }
 
   .entry.feature h3 {
-    font-size: 42px;
+    font-size: 28px;
   }
 
   .entry.secondary h3 {
-    font-size: 32px;
+    font-size: 22px;
   }
 
   .entry.small h3 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .column-shell {
