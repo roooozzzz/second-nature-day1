@@ -4,6 +4,7 @@
   --meta: #6f7376;
   --line: #d9dfdc;
   --panel: #f2f3f3;
+  --panel-strong: #e5e9e8;
   --panel-alt: #ecefee;
   --accent: #6b8881;
 }
@@ -103,11 +104,11 @@ main {
 }
 
 .manifesto-block {
-  background: var(--panel);
+  background: var(--panel-strong);
 }
 
 .note-block {
-  background: var(--panel-alt);
+  background: var(--panel);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -222,7 +223,7 @@ main {
 .directory-section,
 .paths-section,
 .tags-section {
-  background: var(--panel);
+  background: var(--bg);
   padding: 22px 24px;
 }
 
