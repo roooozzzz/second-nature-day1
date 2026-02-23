@@ -45,7 +45,7 @@ body {
   grid-column: 1;
   grid-row: 1;
   margin: 8px 0 0;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 1.1;
   font-weight: 500;
   letter-spacing: 0.03em;
@@ -165,7 +165,7 @@ main {
   margin: 0;
   font-size: 18px;
   line-height: 1.85;
-  color: var(--text);
+  color: #6F7376;
 }
 
 .opening-module .opening-lead {
@@ -397,7 +397,7 @@ main {
 
   .masthead h1 {
     margin: 0;
-    font-size: 30px;
+    font-size: 26px;
   }
 
   .brand-en {
