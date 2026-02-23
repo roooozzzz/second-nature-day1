@@ -30,14 +30,21 @@ body {
 
 .site-header {
   margin-bottom: 12px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 34px;
+  align-items: end;
 }
 
 .masthead {
-  text-align: left;
+  display: contents;
 }
 
 .masthead h1 {
-  margin: 0;
+  grid-column: 1;
+  grid-row: 1;
+  margin: 8px 0 0;
   font-size: 30px;
   line-height: 1.1;
   font-weight: 500;
@@ -45,17 +52,21 @@ body {
 }
 
 .brand-en {
-  margin: 6px 0 10px;
+  grid-column: 1;
+  grid-row: 2;
+  margin: 6px 0 0;
   font-family: "EB Garamond", serif;
   font-size: 18px;
   color: var(--meta);
 }
 
 .index-nav {
-  margin-top: 19px;
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   gap: 16px;
 }
 
@@ -375,15 +386,26 @@ main {
     padding: 30px 20px 50px;
   }
 
+  .site-header {
+    display: block;
+  }
+
+  .masthead {
+    display: block;
+  }
+
   .masthead h1 {
+    margin: 0;
     font-size: 30px;
   }
 
   .brand-en {
+    margin: 6px 0 10px;
     font-size: 18px;
   }
 
   .index-nav {
+    margin-top: 19px;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
